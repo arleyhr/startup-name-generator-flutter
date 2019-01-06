@@ -1,4 +1,4 @@
-# startup_name_generator
+# Flutter - Startup name generator
 ![1](https://raw.githubusercontent.com/arleyhr/statup-name-generator-flutter/master/screenshots/gif.gif)
 
 ## Getting Started
