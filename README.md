@@ -1,6 +1,5 @@
 # startup_name_generator
-
-A new Flutter project.
+![1](https://raw.githubusercontent.com/arleyhr/statup-name-generator-flutter/master/screenshots/gif.gif)
 
 ## Getting Started
 
