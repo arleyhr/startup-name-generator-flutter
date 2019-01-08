@@ -31,14 +31,14 @@ class _RandomWordsState extends State<RandomWords> {
       appBar: AppBar(
         title: Text('Startup Name Generator'),
         actions: <Widget>[
-          // Add 3 lines from here...
           IconButton(icon: Icon(Icons.list), onPressed: _pushSaved),
         ],
       ),
       body: _buildSuggestions(),
     );
   }
-
+  
+  // Push to new route
   void _pushSaved() {
     Navigator.of(context).push(
       new MaterialPageRoute<void>(
@@ -69,7 +69,8 @@ class _RandomWordsState extends State<RandomWords> {
       ),
     );
   }
-
+  
+  // Suggestions list
   Widget _buildSuggestions() {
     return ListView.builder(
       padding: EdgeInsets.all(16.0),
@@ -86,7 +87,8 @@ class _RandomWordsState extends State<RandomWords> {
       },
     );
   }
-
+  
+  // Suggestion row
   Widget _buildRow(WordPair pair) {
     final bool alreadySaved = _saved.contains(pair);
 
